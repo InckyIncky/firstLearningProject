@@ -1,11 +1,11 @@
 package com.JavaLessons.Nik;
 
-public class AreaOfACircle {
+public class Circle {
 
     private static final double PI = 3.1415926536;
     double radius;
 
-    AreaOfACircle(double radius) {
+    Circle(double radius) {
         double r = this.radius;
     }
 
@@ -20,7 +20,7 @@ public class AreaOfACircle {
     }
 
     public static void main(String[] args) {
-        AreaOfACircle circle1 = new AreaOfACircle(5.8 );
+        Circle circle1 = new Circle(5.8 );
         System.out.println(circle1.areaOfCircle());
 
         circle1.setRadius(5);
